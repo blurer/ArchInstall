@@ -72,14 +72,43 @@ $ neofetch
   - Reboot
 
 
-First Login
+## First Login
 
+Open terminal, going to ensure up to date (99.999% will be since rolling release), then install stuff.
 
+```
+git config --global user.email "MY EMAIL"
+git config --global user.name "bl"
+sudo pacman -Syu
+sudo pacman -S discord firefox git rsync rclone zsh unzip python-pip htop wget ffmpeg bat zsh-syntax-highlighting neofetch nmap ansible bmon nload dnsutils ttf-dejavu ttf-roboto ttf-ubuntu-font-family tailscale openssh otf-ipafont ttf-bitstream-vera ttf-croscore noto-fonts ttf-font-awesome
+```
 
+Install ohmyzsh
+``sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"``
 
+Install yay 
+```
+sudo pacman --needed -S base-devel git
+mkdir $HOME/gits/
+cd $HOME/gits/
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
 
+yay some stuff
+```
+yay -S brave
+yay -S 1password
+yay -S spotify
+yay -S obsidian
+```
 
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
+Start some services
+```
+sudo systemctl start sshd
+sudo systemctl enable sshd
+sudo systemctl enable --now tailscaled
+sudo tailscale up
+tailscale ip -4
+```
