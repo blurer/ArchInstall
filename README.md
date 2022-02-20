@@ -70,7 +70,7 @@ $ neofetch
   - Network config: 0 - dhcp 
   - Time zone: Asia/tokyo
   - Automatic sync: y
-- <press enter to start>
+  - {press enter to start}
 - Chroot into newly installed system: n
 - Reboot
 
