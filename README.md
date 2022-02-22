@@ -125,3 +125,15 @@ pip3 install pandas --user
 pip3 install paramiko --user
 pip3 install netaddr --user
 ```
+
+## Bluetooth
+```
+sudo pacman -S gnome-bluetooth 
+sudo pacman -S gnome-control-center
+sudo systemctl start bluetooth.service
+sudo systemctl enable bluetooth.service
+```
+*Reboot for this to work properly.*
+
+
+
