@@ -4,43 +4,41 @@ arch install script
 ## Specs & Neofetch
 
 ### Specs
-
 ```
-Asrock A300
-Ryzen 3 3200g
-2x16g 3200mhz
-2x1tb ssd
-1x512g nvme
-1x128g nvme
-Noctua NH-L9i
+Z390 Dark
+8700k/8086k
+2x32g 3200mhz
+H510 Flow
+Noctua DH-15
+4x Arctic 120mm
+XFX RX6400
 ```
 
 ### Neofetch
 ```
-# bl @ bl-arch in ~ [9:40:08] 
+# bl @ bl-dt in ~/dev [10:37:52] 
 $ neofetch
-                   -`                    bl@bl-arch 
-                  .o+`                   ---------- 
+                   -`                    bl@bl-dt 
+                  .o+`                   -------- 
                  `ooo/                   OS: Arch Linux x86_64 
-                `+oooo:                  Kernel: 5.16.9-arch1-1 
-               `+oooooo:                 Uptime: 2 days, 5 hours, 18 mins 
-               -+oooooo+:                Packages: 840 (pacman) 
-             `/:-:++oooo+:               Shell: zsh 5.8.1 
-            `/++++/+++++++:              Resolution: 1920x1080 
-           `/++++++++++++++:             DE: GNOME 41.4 
-          `/+++ooooooooooooo/`           WM: Mutter 
-         ./ooosssso++osssssso+`          WM Theme: Black-Maia-40 
-        .oossssso-````/ossssss+`         Theme: Prof-Gnome-Dark-3.6 [GTK2/3] 
-       -osssssso.      :ssssssso.        Icons: Papirus-Dark [GTK2/3] 
-      :osssssss/        osssso+++.       Terminal: gnome-terminal 
-     /ossssssss/        +ssssooo/-       CPU: AMD Ryzen 3 3200G (4) @ 3.600GHz 
-   `/ossssso+/:-        -:/+osssso+-     GPU: AMD ATI Radeon Vega Series / Radeon Vega Mobile Series 
-  `+sso+:-`                 `.-/+oso:    Memory: 6804MiB / 30080MiB 
+                `+oooo:                  Host: Z390 DARK 
+               `+oooooo:                 Kernel: 5.15.64-1-lts 
+               -+oooooo+:                Uptime: 51 mins 
+             `/:-:++oooo+:               Packages: 978 (pacman) 
+            `/++++/+++++++:              Resolution: 2560x1080 @ 143.94Hz 
+           `/++++++++++++++:             DE: Plasma 5.25.4 
+          `/+++ooooooooooooo/`           WM: KWin 
+         ./ooosssso++osssssso+`          Theme: [Plasma], Breeze [GTK2/3] 
+        .oossssso-````/ossssss+`         CPU: Intel i7-8086K (12) @ 5.100GHz 
+       -osssssso.      :ssssssso.        GPU: AMD ATI Radeon RX 6400 / 6500 XT 
+      :osssssss/        osssso+++.       Memory: 14413MiB / 64239MiB 
+     /ossssssss/        +ssssooo/-       CPU Usage: 16% 
+   `/ossssso+/:-        -:/+osssso+-     Disk (/): 48G / 932G (6%) 
+  `+sso+:-`                 `.-/+oso:    Disk (/mnt/sda1): 1.7T / 4.6T (37%) 
  `++:.                           `-/+/
  .`                                 `/                           
-                                                                 
-
 ```
+
 
 ## Install
 
