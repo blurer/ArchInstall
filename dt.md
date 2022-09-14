@@ -135,5 +135,10 @@ Then update repos and install
 sudo pacman -Sy
 sudo pacman -S steam
 ```
+## Printing
 
-
+```
+sudo pacman -S cups print-manager print-manager
+sudo systemctl enable cups
+sudo systemctl start cups
+```
