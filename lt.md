@@ -5,36 +5,16 @@ arch install script
 
 ### Specs
 ```
-Z390 Dark
-8086k@5.2
-2x32g 3200mhz
-H510 Flow
-Noctua DH-15
-4x Arctic 120mm
-Titan RTX w/thicc cooler
+Thinkpad T480s
+i7
+24gb ddr3
+1tb nvme
 ```
 
 ### Neofetch
 ```
-                   -`                    bl@bl-dt
-                  .o+`                   --------
-                 `ooo/                   OS: Arch Linux x86_64
-                `+oooo:                  Host: Z390 DARK
-               `+oooooo:                 Kernel: 6.0.8-arch1-1
-               -+oooooo+:                Uptime: 1 hour, 28 mins
-             `/:-:++oooo+:               Packages: 722 (pacman)
-            `/++++/+++++++:              Shell: zsh 5.9
-           `/++++++++++++++:             Resolution: 2560x1080
-          `/+++ooooooooooooo/`           WM: i3
-         ./ooosssso++osssssso+`          Theme: Adwaita-dark [GTK2/3]
-        .oossssso-````/ossssss+`         Icons: Adwaita [GTK2/3]
-       -osssssso.      :ssssssso.        Terminal: alacritty
-      :osssssss/        osssso+++.       CPU: Intel i7-8086K (12) @ 5.200GHz
-     /ossssssss/        +ssssooo/-       GPU: NVIDIA TITAN RTX
-   `/ossssso+/:-        -:/+osssso+-     Memory: 5286MiB / 64234MiB
-  `+sso+:-`                 `.-/+oso:
- `++:.                           `-/+/
- .`                                 `/                        
+
+
 ```
 
 
@@ -51,12 +31,12 @@ Titan RTX w/thicc cooler
   - Partitions: Wipe all
   - File System: ext4
   - Use grub over systemd-boot: n
-  - Host name: bl-dt
+  - Host name: bl-lt
   - Super user account: bl
   - Password: {supersecretpw}
   - Profiles (window manager): 0 (desktop)
   - Which manager: i3-gaps
-  - Video Drivers: nvidia (proprietary)
+  - Video Drivers: intel
   - Use pipewire/pulse: pipewire
   - Kernel: linux
   - Additional apps: htop vim git curl firefox 
