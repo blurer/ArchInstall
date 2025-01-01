@@ -98,10 +98,10 @@
         "greeter": null,
         "profile": {
             "custom_settings": {
-                "httpd": {}
+                "sshd": {}
             },
             "details": [
-                "httpd"
+                "openssh"
             ],
             "main": "Server"
         }
